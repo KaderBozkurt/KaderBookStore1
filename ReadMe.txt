@@ -1,9 +1,11 @@
 2022/10/21
-Built theinitial default application-ASP.NET Core (MVC)
--prepemded my name - KaderBokkStore
+Built the individual default application-ASP.NET Core (MVC)
+using HTTPS
+-prepereded my name - KaderBokkStore
 -Intivual account Authentication
--Added Razor runtime-just for fun!..
+-Added Razor runtime-
 
--Git create and then reviewed the default 
+
+create GITHUB repo and then reviewed the default 
 
 --TEST and RUN working..
