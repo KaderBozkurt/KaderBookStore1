@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - KaderBookStore</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
@@ -26,13 +26,14 @@
                             <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li>
-                             <div class="dropdown">
+
+                             <div class="container">
   <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JavaScript</a></li>
+    <li><a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+    <li><a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+    <li><a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">KaderBookStore</a></li>
   </ul>
 </div> 
                         </li>
