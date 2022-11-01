@@ -30,6 +30,8 @@ namespace KaderBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+
+            //Delete identity connection
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
@@ -42,7 +44,7 @@ namespace KaderBookStore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
+                app.UseMigrationsEndPoint();
             }
             else
             {
