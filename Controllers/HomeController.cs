@@ -1,4 +1,5 @@
 ﻿using KaderBookStore.Models;
+using KaderBookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;

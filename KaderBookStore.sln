@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaderBookStore", "KaderBookStore.csproj", "{5565EC6D-9A13-4744-8AA8-CE38F82E5DF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KaderBookStore", "KaderBookStore.csproj", "{5565EC6D-9A13-4744-8AA8-CE38F82E5DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KadersBooks.DataAccess", "..\KadersBooks.DataAccess\KadersBooks.DataAccess.csproj", "{BCD49C2D-FAC1-4B9E-929C-1B64615A3853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KadersBooks.Models", "..\KadersBooks.Models\KadersBooks.Models.csproj", "{F964D63D-2C90-417E-ABEC-6CE2D0AEDA7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KadersBooks.Utility", "..\KadersBooks.Utility\KadersBooks.Utility.csproj", "{658F9CB5-7099-4B51-8004-3D23C8DB4D7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{5565EC6D-9A13-4744-8AA8-CE38F82E5DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5565EC6D-9A13-4744-8AA8-CE38F82E5DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5565EC6D-9A13-4744-8AA8-CE38F82E5DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD49C2D-FAC1-4B9E-929C-1B64615A3853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD49C2D-FAC1-4B9E-929C-1B64615A3853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD49C2D-FAC1-4B9E-929C-1B64615A3853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD49C2D-FAC1-4B9E-929C-1B64615A3853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F964D63D-2C90-417E-ABEC-6CE2D0AEDA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F964D63D-2C90-417E-ABEC-6CE2D0AEDA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F964D63D-2C90-417E-ABEC-6CE2D0AEDA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F964D63D-2C90-417E-ABEC-6CE2D0AEDA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658F9CB5-7099-4B51-8004-3D23C8DB4D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658F9CB5-7099-4B51-8004-3D23C8DB4D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658F9CB5-7099-4B51-8004-3D23C8DB4D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658F9CB5-7099-4B51-8004-3D23C8DB4D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
