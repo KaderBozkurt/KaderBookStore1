@@ -22,4 +22,15 @@
     <ProjectReference Include="..\KadersBooks.Utility\KadersBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Areas\Customer\Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Areas\Customer\Views\Home\Privacy.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
