@@ -120,6 +120,9 @@ I update all project GitHup.
 1350- its working in my computer. right now, i see my all project in my reposity.when i go home i will try another computer.
 1640- i try my destop computer and its working.
 1659- But why doesn't github transfer automatically? I couldn't understand that. It doesn't say that we have to pay attention to this when we start a new project.
+1736- GitHup Repository name : "KaderBookStore1"
+      Local repo Name: "KaderBozkurtS"
+      FIXED..... I will try school computer
 
 
 
