@@ -28,3 +28,18 @@ C:\Users\User\source\repos\KaderBozkurtS\KadersBooks.DataAccess\obj\Debug\netcor
 C:\Users\User\source\repos\KaderBozkurtS\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.CopyComplete
 C:\Users\User\source\repos\KaderBozkurtS\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.dll
 C:\Users\User\source\repos\KaderBozkurtS\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.DataAccess.deps.json
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.DataAccess.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.DataAccess.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.Models.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.Utility.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.Models.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\bin\Debug\netcoreapp3.1\KadersBooks.Utility.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.AssemblyInfo.cs
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.CopyComplete
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.pdb
