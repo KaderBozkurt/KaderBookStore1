@@ -102,8 +102,24 @@ I check all part and test. Its working. I hope it is working too at school compu
 Review my readme.
 I update all project GitHup.
 
+
 2022/11/04
-I clone my project school computer but doesnt work full
+12:10- I clone githup with school computer but doesnt upload my project.I failed additional project.
+1211- ask professor and advise delete repo and create new one 
+1215- I try delete repo and create again but githup cant allow i use old project
+1216-i ask someone and i realeze when i commit and push githup just save my main project 
+1230- we create group with my classmate and we working on
+1233- first we back up all project 
+1236- create new repository and try upload my old file with visual studio but visual studio allow new project not use old project.
+1300-create new repo but githup exsist my old repo and i have change name "KaderBookStore1" but we cant upload
+1325- professor give me point
+1330- my classmate advise it for check githup push way. that mean .git folder (actually it hidden). 
+1340- first, all file select show in visual studio
+1341-second we check .git folder in my repo folder and we see its wrong push way we have move this folder
+1345- move .git folder without main project folder and change repository name 
+1350- its working in my computer. right now, i see my all project in my reposity.when i go home i will try another computer.
+1640- i try my destop computer and its working.
+1659- But why doesn't github transfer automatically? I couldn't understand that. It doesn't say that we have to pay attention to this when we start a new project.
 
 
 
