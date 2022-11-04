@@ -10,6 +10,7 @@ create GITHUB repo and then reviewed the default
 
 --TEST and RUN working..
 
+
 This Project is build with ASP.NET MVC CORE 3.1 usig HTTPS, individual account authentication..
 the scenerio
 2022/10/26
