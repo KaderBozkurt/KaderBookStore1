@@ -101,7 +101,8 @@ I check all part and test. Its working. I hope it is working too at school compu
 Review my readme.
 I update all project GitHup.
 
-
+2022/11/04
+I clone my project school computer but doesnt work full
 
 
 
