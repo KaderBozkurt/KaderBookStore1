@@ -8,3 +8,13 @@ C:\Users\User\Source\Repos\KaderBozkurt\KadersBooks.Utility\obj\Debug\netcoreapp
 C:\Users\User\Source\Repos\KaderBozkurt\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.dll
 C:\Users\User\Source\Repos\KaderBozkurt\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.pdb
 C:\Users\User\Source\Repos\KaderBozkurt\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.csproj.AssemblyReference.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\bin\Debug\netcoreapp3.1\KadersBooks.Utility.deps.json
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\bin\Debug\netcoreapp3.1\KadersBooks.Utility.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\bin\Debug\netcoreapp3.1\KadersBooks.Utility.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.csproj.AssemblyReference.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.AssemblyInfoInputs.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.AssemblyInfo.cs
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Utility\obj\Debug\netcoreapp3.1\KadersBooks.Utility.pdb
