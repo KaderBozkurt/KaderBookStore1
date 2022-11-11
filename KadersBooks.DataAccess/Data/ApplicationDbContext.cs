@@ -13,11 +13,8 @@ namespace KaderBookStore.DataAccess.Data
             : base(options)
         {
         }
-<<<<<<< HEAD
-        public DbSet<Category> Categories { get; set; }
-=======
 
-       public DbSet<Category> Categories { get; set; }
->>>>>>> a2ee6a58678b3b82e265fe1c2dccabf3c4d44a79
+        public DbSet<Category> Categories { get; set; }
+
     }
 }
