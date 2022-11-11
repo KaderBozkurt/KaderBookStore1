@@ -148,19 +148,19 @@ so i try update but its not working.
 1258-add-migration 'AddCategoryDb'
 1331- update and added using statement KadersBokks.Models
 1332- error for Category class its same name but somathing worng...
-
-    
-
-
-
-
-
-
-
-      2022/11/11
-      1326- created Categories table but i cant see in SQL Server Object Explorer
+    2022/11/11
+1326- created Categories table but i cant see in SQL Server Object Explorer
       for fix: Refresh twice but i not see my table
            build again but still have same problem
+1345- Let's break and refresh brain
+1417- i opened my project school lab. but my database cant update 
+1418-check my main project and its still working and i add my category table in database on my labtop but why doesnt work lab computer?
+1430- i found some issuses about guthup when update my projet on githup, githup doesnt update my database.
+so when clone my project at school computer it not show database table and SQL server.
+
+1828- Start Part2.2
+
+
 
 
 
