@@ -124,6 +124,36 @@ I update all project GitHup.
       Local repo Name: "KaderBozkurtS"
       FIXED..... I will try school computer
 
+      2022/11/07
+1230-'build' the application and No error
+1231-Review appsettings.json
+1234-Add Migratin but gived error "Exception has been thrown by the target of an invocation."
+1235- search the this error online and i found, that means my packages is doesnt macth main packages 
+so i try update but its not working. 
+1240-class time over and i will try fix agian at home.But i have PHP project and due date tomorrow.
+
+   2022/11/10
+1200-restart the second part(buil solution, review appsettings.json)
+1207-Add migration and contuinue error "Exception has been thrown by the target of an invocation."
+1208-It gives this error because the versions of NugET packages are different.
+     I updated all packages from 5.0.11 to 3.1.16.
+1222-Add migration  and it gave the error in the slides and I changed the default project part
+    and working lets go next step.
+        My migration name:'BookStoreMig'
+1223-check migration file in KadersBokks.DataAccess
+1238-update-database and succeeded and Done
+1231-Review the update database in the SQLServer Object Explorer.
+1232-RUN---No Error
+1238-add new class file "Category.cs" in KadersBooks.Models
+1258-add-migration 'AddCategoryDb'
+1331- update and added using statement KadersBokks.Models
+1332- error for Category class its same name but somathing worng...
+
+    
+
+
+
+
 
 
 

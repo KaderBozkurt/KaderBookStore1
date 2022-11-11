@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {}
+    "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
+    "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
         "projectName": "KadersBooks.Utility",
-        "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
-        "packagesPath": "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yahya Bozkurt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
