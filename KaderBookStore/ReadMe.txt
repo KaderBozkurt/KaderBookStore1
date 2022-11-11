@@ -157,6 +157,11 @@ so i try update but its not working.
 
 
 
+      2022/11/11
+      1326- created Categories table but i cant see in SQL Server Object Explorer
+      for fix: Refresh twice but i not see my table
+           build again but still have same problem
+
 
 
 
