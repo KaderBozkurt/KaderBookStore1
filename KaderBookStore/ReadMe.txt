@@ -181,6 +181,32 @@ so when clone my project at school computer it not show database table and SQL s
 2044- Review Repository.cs
 2053- Implement the interface to update
 2054- complete the remaining modification 
+2100- I have error in class Models and Utility project this;
+"Severity Code Description Project File Line Column Suppression State Error MSB3541 Files has 
+invalid value "<<<<<<< HEAD". Illegal characters in path. KadersBooks.Models 
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.
+Common.CurrentVersion.targets 5460 5"
+2108- I tried back with Git Change but when i built solution came back same error....
+2130- selected "Show All File" for KadersBooks.Models and KadersBooks.Utility 
+2135- I'm looking for the file with the error
+2136- i found obj/KadersBooks.Utility.csproj.CoreCompileInputs.cache.. I found the following error;
+
+        <<<<<<< HEAD
+            61b0a04e9d39d20fc4dd991a8e0aea610d1844c2
+            =======
+            49e7df5118f4b03a306aef4b3d336903649e34c4
+                >>>>>>> a2ee6a58678b3b82e265fe1c2dccabf3c4d44a79
+
+2145-I deleted context for the file with the error and built again but i still have same error
+        Let's break and refresh brain
+
+2210- I thought of searching the internet for the error and i found same solution.Lets try...
+2215- I found this solution; "Try to search the entire solution for the value and remove it from where it occurs, and
+then delete the obj folder from your project. When you build again it should work.
+The obj folders are hidden in Visual Studio. You can see them with a file explorer."    
+2217-Deleted each obj folder for Models and Utility.
+2220- Build Project and Fix...Thank you Internet
+      
 
 
 
