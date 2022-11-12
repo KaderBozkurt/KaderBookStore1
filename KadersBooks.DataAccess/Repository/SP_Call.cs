@@ -10,6 +10,7 @@ namespace KadersBooks.DataAccess.Repository
 {
     public class SP_Call : ISP_Call
     {
+
         public void Dispose()
         {
             throw new NotImplementedException();

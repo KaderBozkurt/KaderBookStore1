@@ -58,3 +58,10 @@ C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAcce
 C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.CopyComplete
 C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.dll
 C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.pdb
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.AssemblyInfoInputs.cache
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.AssemblyInfo.cs
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.dll
+C:\Users\User\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\obj\Debug\netcoreapp3.1\KadersBooks.DataAccess.pdb

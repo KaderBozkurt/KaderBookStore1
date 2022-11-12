@@ -5424,11 +5424,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
       "projectName": "KadersBooks.Utility",
-      "projectPath": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.Utility\\obj\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
