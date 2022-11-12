@@ -166,6 +166,10 @@ so when clone my project at school computer it not show database table and SQL s
     List of Categories
     Add object
     Remove object in IRepository.cs file
+    Give it error about up and down in AddCategoryDb.cs file
+1930- I realize my migration have more file because when i pulling it is come it 
+       delete more file and fixed error
+
 
 
 
