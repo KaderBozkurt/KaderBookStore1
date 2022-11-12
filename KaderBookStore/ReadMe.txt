@@ -161,7 +161,11 @@ so when clone my project at school computer it not show database table and SQL s
 1828- Start Part2.2
 1848- Add folder Repository in KadersBooks.DataAccess class then add folder in Repository folder
 1850-Add class implementations of interface in IRepository.cs
-
+1909-add methods to use for CRUD
+    Get item from database
+    List of Categories
+    Add object
+    Remove object in IRepository.cs file
 
 
 
