@@ -220,6 +220,7 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
   1250- Add connection  to the database
   1255- Add using statement
   1308- Update the implementation of the ISP_Call interface
+  1327-Add new interface to the IRepository
       
 
 
