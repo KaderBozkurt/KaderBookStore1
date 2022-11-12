@@ -221,6 +221,13 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
   1255- Add using statement
   1308- Update the implementation of the ISP_Call interface
   1327-Add new interface to the IRepository
+
+  1806- add code " public class UnitOfWork : IUnitOfWork   " in UnitOfWork.cs
+  1807- Changed interface to public interface in IUnitOfWork.cs
+  1808- Add following code in Startup.cs;
+        "using KaderBookStore.DataAccess.Data;
+         using KadersBooks.DataAccess.Repository;
+         using KadersBooks.DataAccess.Repository.IRepository;"
       
 
 

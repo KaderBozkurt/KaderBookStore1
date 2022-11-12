@@ -1,5 +1,7 @@
 
 using KaderBookStore.DataAccess.Data;
+using KadersBooks.DataAccess.Repository;
+using KadersBooks.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -32,9 +34,10 @@ namespace KaderBookStore
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-            //Delete identity connection
+            //removed 'option => options.SignIn.RequireConfiremedAccount = true'
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
