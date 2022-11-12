@@ -206,6 +206,13 @@ then delete the obj folder from your project. When you build again it should wor
 The obj folders are hidden in Visual Studio. You can see them with a file explorer."    
 2217-Deleted each obj folder for Models and Utility.
 2220- Build Project and Fix...Thank you Internet
+2327- add new interface in the IRepository/ISP_Call.cs extends IDisposable
+2327- Install NuGet package is "Dapper"
+2327- Implement this new class in repository class
+2333- Add new class SP_Call.cs in the Repository folder
+2333- Add a connection to the database and add using following;
+            using KaderBookStore.DataAccess.Data;
+            using KadersBooks.DataAccess.Repository.IRepository;
       
 
 

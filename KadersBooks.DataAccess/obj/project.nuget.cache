@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U4Eap2dc5xkX/rssAHM0ZhJ0QHwRf/Z4VGkMEno8BobA2ckl/SlPrvuzCVa/V7jJv6PS7jgKE17tAj+n/h8M4A==",
+  "dgSpecHash": "Cs1SoDU0NrrFjdjsWJyrDW1wpnqYy31OpsEAq7KdrDXApsGMRsEkM2MPDrBUwwSzPqXRcdoq5Rm7Q0ynoEyDBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\KaderBozkurtS\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.16\\microsoft.aspnetcore.cryptography.internal.3.1.16.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.16\\microsoft.aspnetcore.cryptography.keyderivation.3.1.16.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\3.1.16\\microsoft.aspnetcore.identity.entityframeworkcore.3.1.16.nupkg.sha512",
@@ -100,7 +101,7 @@
     "C:\\Users\\User\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
