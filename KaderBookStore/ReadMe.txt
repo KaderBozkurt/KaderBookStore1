@@ -159,6 +159,9 @@ so i try update but its not working.
 so when clone my project at school computer it not show database table and SQL server.
 
 1828- Start Part2.2
+1848- Add folder Repository in KadersBooks.DataAccess class then add folder in Repository folder
+1850-Add class implementations of interface in IRepository.cs
+
 
 
 
