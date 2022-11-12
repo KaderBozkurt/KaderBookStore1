@@ -169,7 +169,18 @@ so when clone my project at school computer it not show database table and SQL s
     Give it error about up and down in AddCategoryDb.cs file
 1930- I realize my migration have more file because when i pulling it is come it 
        delete more file and fixed error
+1949- Include the using statement and fix same error in power point
+1951- Modify the code to create the constructor and dependency injection
+2025- Type CRUD code from Repository.cs file in blackboard
+2028- Create file ICategory.cs in Repository folder because we will use all patential models to be added the future
+2042- Modify CategoryRepository.cs 
+          Add using statement --   " using KaderBookStore.DataAccess.Data;
+                                    using KadersBooks.DataAccess.Repository.IRepository;
+                                    using KadersBooks.Models;"
 
+2044- Review Repository.cs
+2053- Implement the interface to update
+2054- complete the remaining modification 
 
 
 
