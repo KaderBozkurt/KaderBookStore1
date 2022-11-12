@@ -229,6 +229,7 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
          using KadersBooks.DataAccess.Repository;
          using KadersBooks.DataAccess.Repository.IRepository;"
       
+1813- Build and succeeded....
 
 
 
