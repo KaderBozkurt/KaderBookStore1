@@ -174,6 +174,7 @@ so when clone my project at school computer it not show database table and SQL s
 2025- Type CRUD code from Repository.cs file in blackboard
 2028- Create file ICategory.cs in Repository folder because we will use all patential models to be added the future
 2042- Modify CategoryRepository.cs 
+
           Add using statement --   " using KaderBookStore.DataAccess.Data;
                                     using KadersBooks.DataAccess.Repository.IRepository;
                                     using KadersBooks.Models;"
@@ -182,10 +183,10 @@ so when clone my project at school computer it not show database table and SQL s
 2053- Implement the interface to update
 2054- complete the remaining modification 
 2100- I have error in class Models and Utility project this;
-"Severity Code Description Project File Line Column Suppression State Error MSB3541 Files has 
-invalid value "<<<<<<< HEAD". Illegal characters in path. KadersBooks.Models 
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.
-Common.CurrentVersion.targets 5460 5"
+            "Severity Code Description Project File Line Column Suppression State Error MSB3541 Files has 
+                invalid value "<<<<<<< HEAD". Illegal characters in path. KadersBooks.Models 
+                    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.
+                     Common.CurrentVersion.targets 5460 5"
 2108- I tried back with Git Change but when i built solution came back same error....
 2130- selected "Show All File" for KadersBooks.Models and KadersBooks.Utility 
 2135- I'm looking for the file with the error
@@ -213,6 +214,12 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 2333- Add a connection to the database and add using following;
             using KaderBookStore.DataAccess.Data;
             using KadersBooks.DataAccess.Repository.IRepository;
+
+
+  2022/11/12
+  1250- Add connection  to the database
+  1255- Add using statement
+  1308- Update the implementation of the ISP_Call interface
       
 
 
