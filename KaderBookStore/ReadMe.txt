@@ -286,7 +286,14 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 1332-Add delete function in last part in category.js
 1332-Add delete url function
 
-1350-
+1350-I HAVE BIG PROBLEM ABOUT ADD DATA IN CATEGORY 
+  LETS BREAK
+
+1615-Review all slayt and i found some spelling mistake and missing part
+   ...Annotation("SqlServer:Identy", "1, 1") to Annotation("SqlServer:Identity", "1, 1")  in the AddCategoryDb.cs
+   ....miss part "  T GetFirstOrDefault(                   in the IRepository.cs
+                      Expression<Func<T, bool>> filter = null,
+                         string includeProperties = null  );"
 
 
 
