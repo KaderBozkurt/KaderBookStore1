@@ -247,8 +247,15 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 1950- Create "category.js" file in wwroot/js and cut code about icon in Index.cshtml paste in "category.js"
 1955- Call category.js file with @section like:@section Scripts{ script src="~/js/category.js"></script> } in Index.cshtml
 1958- Run and Working but i cant see any name because i dont have data right now.
-
-
+2000- Activete the 'Edit' and 'Delete' buttons
+2002-Abb action method for upsert for is for create and for the edit in CategoryController.cs
+2004- Gived some error and i add 'using KadersBooks.Models'
+2013- Add category last return view()
+2020- Create Razor view page Upsert.cshtml file in Adim/Views/Category
+2021- Copy and paste code in category upsert view file on blackboard
+2022-Create Partial view foe Edit|Back.
+2022- Add _CreateAndBackToListButton.cshtml partial view in Views/Shared folder 
+2033- Listed and add asp-action button in  _CreateAndBackToListButton.cshtml 
 
 
 
