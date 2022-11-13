@@ -221,7 +221,7 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
   1255- Add using statement
   1308- Update the implementation of the ISP_Call interface
   1327-Add new interface to the IRepository
-
+  ---------Break----------
   1806- add code " public class UnitOfWork : IUnitOfWork   " in UnitOfWork.cs
   1807- Changed interface to public interface in IUnitOfWork.cs
   1808- Add following code in Startup.cs;
@@ -243,7 +243,10 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 1957-Change code in _Layout.cshtml
 1958-Remove Privary link and add Category link in dropdown menu" <a class="dropdown-item " asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>"
 1958- Run and show up Category under dropdown menu and when i click it goes the Category List
-1740- Add trash and Edit icon with Font Awesome 
+1940- Add trash and Edit icon with Font Awesome 
+1950- Create "category.js" file in wwroot/js and cut code about icon in Index.cshtml paste in "category.js"
+1955- Call category.js file with @section like:@section Scripts{ script src="~/js/category.js"></script> } in Index.cshtml
+1958- Run and Working but i cant see any name because i dont have data right now.
 
 
 
