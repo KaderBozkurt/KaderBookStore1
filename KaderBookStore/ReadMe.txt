@@ -257,6 +257,13 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 2022- Add _CreateAndBackToListButton.cshtml partial view in Views/Shared folder 
 2033- Listed and add asp-action button in  _CreateAndBackToListButton.cshtml 
 
+2022/11/13
+
+1200-Create another partial view __EditAndBackToListButton.cshtml file and add asp-action with @model razor statement
+1201-Modify Upsert.cshtml with @model
+1203-Add asp-action
+
+
 
 
 

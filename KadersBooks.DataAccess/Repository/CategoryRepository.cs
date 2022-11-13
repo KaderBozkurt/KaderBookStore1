@@ -25,7 +25,7 @@ namespace KadersBooks.DataAccess.Repository
             if(objFromDb != null) //save changes if not null
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
+               
             }
         }
     }
