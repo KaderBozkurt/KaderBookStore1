@@ -34,8 +34,4 @@
     </Content>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-  </ItemGroup>
-
 </Project>

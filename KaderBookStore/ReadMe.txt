@@ -231,6 +231,20 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
       
 1813- Build and succeeded....
 
+1838- Create controller is  inside Areas/Admin/Controllers/CategoryController.cs
+1841- Add using "using KadersBooks.DataAccess.Repository.IRepository;"
+1850- Add new Folder name is Controller in the Areas/View
+1951- Add new 'Index': right click Areas/Views and create 'Index' Razor View with empty(without model) in the .Areas/Admin/Views/Shared/_Layout.cshtml 
+1952- Copy and Paste code in Category Index View.txt file in the Assignment 2 folder
+1954- Remove ViewData["Title"] = "Index"; and <h1>Index</h1>
+1955-Save and Run.. and use:http://localhost:8600/Admin/Category {Admin/Cotegory}
+        It showed like on the slide.
+
+1957-Change code in _Layout.cshtml
+1958-Remove Privary link and add Category link in dropdown menu" <a class="dropdown-item " asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>"
+1958- Run and show up Category under dropdown menu and when i click it goes the Category List
+
+
 
 
 
