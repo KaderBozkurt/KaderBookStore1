@@ -261,7 +261,32 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 
 1200-Create another partial view __EditAndBackToListButton.cshtml file and add asp-action with @model razor statement
 1201-Modify Upsert.cshtml with @model
-1203-Add asp-action
+1203-Add asp-action to the Index.cshtmlpage modify
+1205-run and working but i cant add category
+1207-Navigate to category/create new category
+1210--Change title with @title variable
+1211-add @section and call script
+1212- tested but i cant create new category
+1218- I send email to prefessor...but i have to finis all part maybe will be fix
+1230-Create Upsert POST action methodin the CategoryController.cs
+1230- save method made void to IUnitOfWork.cs.
+1231- Add this code "void Save();" under 'public interface IUnitOfWork : IDisposable' in the IUnitOfWork.cs file
+1231- Remove the _db.SaveChanges() method in CategoryRepository.cs
+1233- Add the code " _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));   " in CategoryController.cs
+
+1244-display correctly but i cant add new category why???
+    -change asp-action but doesnt work
+    -
+
+1312-send email professor twice
+???????????????????????/
+1330-Add the API HTTPDelete in the CategoryController.cs
+1331- implement with a delete method in category.js
+1332-Add delete function in last part in category.js
+1332-Add delete url function
+
+1350-
 
 
 
