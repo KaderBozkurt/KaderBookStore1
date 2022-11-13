@@ -243,6 +243,7 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 1957-Change code in _Layout.cshtml
 1958-Remove Privary link and add Category link in dropdown menu" <a class="dropdown-item " asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>"
 1958- Run and show up Category under dropdown menu and when i click it goes the Category List
+1740- Add trash and Edit icon with Font Awesome 
 
 
 
