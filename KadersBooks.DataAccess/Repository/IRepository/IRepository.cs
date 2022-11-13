@@ -17,7 +17,10 @@ namespace KadersBooks.DataAccess.Repository.IRepository
                 Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
                 string includeProperties = null  //useful for foreign key references
            );
-
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            );
 
         void Add(T entity); //to add an entity
         void Remove(int id); //to remove an object pr category
