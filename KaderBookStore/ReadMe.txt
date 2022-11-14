@@ -62,13 +62,13 @@ I built project but it has 2 error.
 I modifying Startup.cs service 'AddContext' with the using statement.
 Built and Run  but....still have error
 **********20:00***************
-change view file location and run but i have still 2 error ..
-I tried something:
-change namespace and file location--not working
-change location in statup.cs file controller to controllers/ area to areas--not working---undo
-change "=" to ":" --not working--undo
-move all views folder to areas ---not working--undo
-delete views folder in main app---not working--undo
+2000-change view file location and run but i have still 2 error ..
+2001-I tried something:
+2002-change namespace and file location--not working
+2003-change location in statup.cs file controller to controllers/ area to areas--not working---undo
+2005-change "=" to ":" --not working--undo
+2005-move all views folder to areas ---not working--undo
+2006-delete views folder in main app---not working--undo
 i decided so tried and i sent email Mr.Steel....
 2022/11/02
 12 noon
@@ -89,18 +89,18 @@ Then I try again part by part from the bootsrap part.
 TEST and RUN ....It WORKING.......with theme because i copied viewstart and viewImport file. Funny day..
 
 **********19:00*********
-I continue built my project by following direction.
-I add new Admin in the Areas. Then I delete Data and Models folder coming up with admin.
-I deleted Controllers folder.
-Finaly,  It's FINISH PART1...........
-I check all part and Test again,
-Everythink ok. 
+1900-I continue built my project by following direction.
+19001-I add new Admin in the Areas. Then I delete Data and Models folder coming up with admin.
+1903-I deleted Controllers folder.
+1905-Finaly,  It's FINISH PART1...........
+1910- check all part and Test again,
+1911-Everythink ok. 
 
 2022/11/03
 
-I check all part and test. Its working. I hope it is working too at school computer.
-Review my readme.
-I update all project GitHup.
+1100-I check all part and test. Its working. I hope it is working too at school computer.
+1105-Review my readme.
+1130-I update all project GitHup.
 
 
 2022/11/04
