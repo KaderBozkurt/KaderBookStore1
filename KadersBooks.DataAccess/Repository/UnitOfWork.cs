@@ -28,7 +28,7 @@ namespace KadersBooks.DataAccess.Repository
 
         public void Save()   //al change will be saved when the save method is called at the 'parent' level
         {
-            _db.SaveChanges();
+            //_db.SaveChanges();
 
         }
     }

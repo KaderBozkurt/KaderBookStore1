@@ -296,7 +296,8 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
                          string includeProperties = null  );"
 
 
-
+2022/11/14
+1008- i add comment    //_db.SaveChanges(); and working bur it doesnt loading
 
 
 

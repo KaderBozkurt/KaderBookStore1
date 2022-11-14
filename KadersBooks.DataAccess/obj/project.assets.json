@@ -7411,19 +7411,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\W0799338\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
       "projectName": "KadersBooks.DataAccess",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\W0799338\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\W0799338\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7437,11 +7437,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj"
+            "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj": {
+              "projectPath": "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj"
             },
-            "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
-              "projectPath": "C:\\Users\\User\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj"
+            "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
+              "projectPath": "C:\\Users\\W0799338\\source\\repos\\kaderbozkurt1\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj"
             }
           }
         }
@@ -7492,7 +7492,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
   }
