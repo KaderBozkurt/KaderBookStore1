@@ -139,7 +139,9 @@ so i try update but its not working.
      I updated all packages from 5.0.11 to 3.1.16.
 1222-Add migration  and it gave the error in the slides and I changed the default project part
     and working lets go next step.
-        My migration name:'BookStoreMig'
+       
+       My migration name:'BookStoreMig'
+
 1223-check migration file in KadersBokks.DataAccess
 1238-update-database and succeeded and Done
 1231-Review the update database in the SQLServer Object Explorer.
