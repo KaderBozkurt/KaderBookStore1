@@ -140,7 +140,7 @@ so i try update but its not working.
 1222-Add migration  and it gave the error in the slides and I changed the default project part
     and working lets go next step.
        
-       My migration name:'BookStoreMig'
+       My migration name:'BookStoreMig'-20221110180051_AddCategoryDb
 
 1223-check migration file in KadersBokks.DataAccess
 1238-update-database and succeeded and Done
