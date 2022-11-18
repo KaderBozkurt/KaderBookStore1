@@ -11,5 +11,7 @@ namespace KadersBooks.DataAccess.Repository.IRepository
        
 
         void Save();
+        ICoverTypeRepository CoverType { get; }
+
     }
 }
