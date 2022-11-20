@@ -1,11 +1,9 @@
-2022/10/21
+************2022/10/21******************************
 Built the individual default application-ASP.NET Core (MVC)
 using HTTPS
 -prepereded my name - KaderBokkStore
 -Intivual account Authentication
 -Added Razor runtime-
-
-
 create GITHUB repo and then reviewed the default 
 
 --TEST and RUN working..
@@ -13,7 +11,7 @@ create GITHUB repo and then reviewed the default
 
 This Project is build with ASP.NET MVC CORE 3.1 usig HTTPS, individual account authentication..
 the scenerio
-2022/10/26
+****************2022/10/26***********************************************************************
 I search bootswatch.com and select theme.
  I choose "cosmo" theme and dowloaded bootsrapt.css.
 I add to wwwroot>lib>bootsrapt>dist>css location.
@@ -23,6 +21,7 @@ I changed the nav class from nav-light to navbar dark and and bg-white to bg-pri
 I remove references to 'text-dark' in  ' _LoginPartial.cshtml' page.
 Test and Run.....It look good.
 I addtional third party tool script to use
+
 jquery UI: use same link in website.
 DataTables:  I copy link from website, and paste to _layout.cdhtml page with <link> and <script> .
 SweetAlert: I copy link from website, and paste in _layout.cdhtml page. "<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -30,16 +29,19 @@ Font Awesome: I add the free kit with <script> tag and I change "registere and L
 Toastr: i copied  Minified link from website and paste layout page.
 change  layout.cshtml page 
 test and run.....Working
-2022/10/30
+
+*********************2022/10/30****************************************************************
 -check all part untill boostrapt
 I add a dropdown menu to the Navbar in Views/Shared/_Layout.cshtml.
 -Changed powerpoint part for dropdown menu. I add but doesnt work. I tried again, and I delete and type code again. 
 Test and run . Its working..
 I think, i made some spelling mistake. 
-- When i adding dropdown menu register and login menu were change location. I change "register and login" menus location. So i change location  "<partial name="_LoginPartial" />" in _Layou.cshtml.
+- When i adding dropdown menu register and login menu were change location. I change "register and login" menus location. 
+So i change location  "<partial name="_LoginPartial" />" in _Layou.cshtml.
 my cosmo template supports dropdown background color white and selection color gray.
 I change dropdown to general manegement
-2022/11/01
+
+*******************2022/11/01******************************************************************
 check all part untill Add Project & Modify
 I following powepoint untill modify
 -add 3 new NET Core class library to apptication
@@ -61,7 +63,7 @@ i change the ErrorViewModels,cs namespace .Models.ViewModels.
 I built project but it has 2 error.
 I modifying Startup.cs service 'AddContext' with the using statement.
 Built and Run  but....still have error
-**********20:00***************
+------------20:00---------------------------
 2000-change view file location and run but i have still 2 error ..
 2001-I tried something:
 2002-change namespace and file location--not working
@@ -70,25 +72,25 @@ Built and Run  but....still have error
 2005-move all views folder to areas ---not working--undo
 2006-delete views folder in main app---not working--undo
 i decided so tried and i sent email Mr.Steel....
-2022/11/02
-12 noon
-viewsmodesl error is fixed with quick fix option 
-choose add redicted public class and fix
-run error still continue but i am continue assignment part
-I changed views folder.
-I add  class name is SD.cs in KadersBooks.Utility.
-I add KadersBooks.Models project reference to main project.
-I add project referances to Models and Utility in the DataAccess project.
-I added an area named 'Customers' to the Areas section, and change routes in the Startup.cs file like outlined in the ScaffoldingReadMe.txt.
-I cutting HomeController.cs file and paste Area>Customer>Controller folder.
-Defined controller is in the Customer Area.
-Cutting views>Home folder and paste views folder, and modify HomeController namespace.
-I continue but I cant test, so I changed my mind and I came back all changes.  I use gitup change section for came back.
-Then I try again part by part from the bootsrap part.
- I repeat the above parts and....
+
+****************2022/11/02***************************************
+12 noon- viewsmodesl error is fixed with quick fix option 
+        choose add redicted public class and fix
+        run error still continue but i am continue assignment part
+        I changed views folder.
+        I add  class name is SD.cs in KadersBooks.Utility.
+        I add KadersBooks.Models project reference to main project.
+        I add project referances to Models and Utility in the DataAccess project.
+        I added an area named 'Customers' to the Areas section, and change routes in the Startup.cs file like outlined in the ScaffoldingReadMe.txt.
+        I cutting HomeController.cs file and paste Area>Customer>Controller folder.
+        Defined controller is in the Customer Area.
+        Cutting views>Home folder and paste views folder, and modify HomeController namespace.
+        I continue but I cant test, so I changed my mind and I came back all changes.  I use gitup change section for came back.
+        Then I try again part by part from the bootsrap part.
+        I repeat the above parts and....
 TEST and RUN ....It WORKING.......with theme because i copied viewstart and viewImport file. Funny day..
 
-**********19:00*********
+-------------19:00--------
 1900-I continue built my project by following direction.
 19001-I add new Admin in the Areas. Then I delete Data and Models folder coming up with admin.
 1903-I deleted Controllers folder.
@@ -96,14 +98,15 @@ TEST and RUN ....It WORKING.......with theme because i copied viewstart and view
 1910- check all part and Test again,
 1911-Everythink ok. 
 
-2022/11/03
+**************2022/11/03**************************************************
 
 1100-I check all part and test. Its working. I hope it is working too at school computer.
 1105-Review my readme.
 1130-I update all project GitHup.
 
 
-2022/11/04
+*******************2022/11/04*************************************************************************
+
 12:10- I clone githup with school computer but doesnt upload my project.I failed additional project.
 1211- ask professor and advise delete repo and create new one 
 1215- I try delete repo and create again but githup cant allow i use old project
@@ -124,7 +127,7 @@ TEST and RUN ....It WORKING.......with theme because i copied viewstart and view
       Local repo Name: "KaderBozkurtS"
       FIXED..... I will try school computer
 
-      2022/11/07
+****************** 2022/11/07************************************************************************
 1230-'build' the application and No error
 1231-Review appsettings.json
 1234-Add Migratin but gived error "Exception has been thrown by the target of an invocation."
@@ -132,7 +135,7 @@ TEST and RUN ....It WORKING.......with theme because i copied viewstart and view
 so i try update but its not working. 
 1240-class time over and i will try fix agian at home.But i have PHP project and due date tomorrow.
 
-   2022/11/10
+ *************************  2022/11/10 ******************************************************
 1200-restart the second part(buil solution, review appsettings.json)
 1207-Add migration and contuinue error "Exception has been thrown by the target of an invocation."
 1208-It gives this error because the versions of NugET packages are different.
@@ -140,7 +143,7 @@ so i try update but its not working.
 1222-Add migration  and it gave the error in the slides and I changed the default project part
     and working lets go next step.
        
-       My migration name:'BookStoreMig'-20221110180051_AddCategoryDb
+       My migration name:'BookStoreMig'-"20221110180051_AddCategoryDb"
 
 1223-check migration file in KadersBokks.DataAccess
 1238-update-database and succeeded and Done
@@ -150,7 +153,9 @@ so i try update but its not working.
 1258-add-migration 'AddCategoryDb'
 1331- update and added using statement KadersBokks.Models
 1332- error for Category class its same name but somathing worng...
-    2022/11/11
+
+ ********************************   2022/11/11 ************************************************
+
 1326- created Categories table but i cant see in SQL Server Object Explorer
       for fix: Refresh twice but i not see my table
            build again but still have same problem
@@ -160,7 +165,8 @@ so i try update but its not working.
 1430- i found some issuses about guthup when update my projet on githup, githup doesnt update my database.
 so when clone my project at school computer it not show database table and SQL server.
 
-1828- Start Part2.2
+-----------1828- Start Part2.2--------------------------------
+
 1848- Add folder Repository in KadersBooks.DataAccess class then add folder in Repository folder
 1850-Add class implementations of interface in IRepository.cs
 1909-add methods to use for CRUD
@@ -218,7 +224,7 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
             using KadersBooks.DataAccess.Repository.IRepository;
 
 
-  2022/11/12
+***********************************  2022/11/12 ***********************************************************
   1250- Add connection  to the database
   1255- Add using statement
   1308- Update the implementation of the ISP_Call interface
@@ -259,7 +265,7 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
 2022- Add _CreateAndBackToListButton.cshtml partial view in Views/Shared folder 
 2033- Listed and add asp-action button in  _CreateAndBackToListButton.cshtml 
 
-2022/11/13
+***************************** 2022/11/13 ****************************************************************
 
 1200-Create another partial view __EditAndBackToListButton.cshtml file and add asp-action with @model razor statement
 1201-Modify Upsert.cshtml with @model
@@ -298,8 +304,57 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
                          string includeProperties = null  );"
 
 
-2022/11/14
+****************************** 2022/11/14 ***********************************************************
 1008- i add comment    //_db.SaveChanges(); and working bur it doesnt loading
 
+
+
+********************************2022/11/18*********************************************************
+1215-Start Part3 3.1 Cover Type CRUD 
+        Create Cover Tpe CRUD like Category
+        Add "CoverType.cs" in the Models folder (create ID and name like category.cs in the Models folder)
+        Add CoverType to the Repository class-CoverTypeRepository.cs
+                                        Interface-ICoverTypeRepository.cs
+1230-Add UnitOfWork and IUnitOfWork like Category but i have error for content 
+1230-we dont create table again so i have fix at home almost finish class
+
+
+***********************2022/11/20*****************************************************************
+
+1410- Review all part 
+1430-I still had 7 error in UnitOfWork.cs and IUnitOfWork.cs
+1440-my error is about syctanx betwen IUnitOfWork and UnitOfWork
+
+1500- I just add " public ICoverTypeRepository CoverType { get; private set; }" in UnitOfWork
+                 "  ICoverTypeRepository CoverType { get; }" inIUnitOfWork
+
+    but still have some error and i have to check CoverTypeRepository and I change my code like CategoryRepository.
+   
+1530-have 3 error for ApplicationDbContext and i add "public DbSet<CoverType> CoverTypies { get; set; }"
+1539- This time i dont have error Lets start Migration
+1542- i try add migration but Build failed WHY?
+
+1551- i confused litle bit about Repository.cd should i add all implement again?
+
+        My error is "'Repository<T>' does not implement interface member 
+                    'IRepository<T>.Update(CoverType)'	KadersBooks.DataAccess
+                    C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\Repository\Repository.cs"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+this---- public ICoverTypeRepository CoverType { get; private set; } in the UnitOfWork.cs
+    
 
 

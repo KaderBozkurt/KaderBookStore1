@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KadersBooks.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -26,7 +27,6 @@ namespace KadersBooks.DataAccess.Repository.IRepository
         void Remove(int id); //to remove an object pr category
         void Remove(T entity); //another way to remove an object
         void RemoveRange(IEnumerable<T> entity); //removes a complete range og entities
-
-
+        void Update(CoverType coverType);
     }
 }

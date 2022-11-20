@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using KadersBooks.Models;
 
 namespace KadersBooks.DataAccess.Repository
 {
@@ -87,5 +88,7 @@ namespace KadersBooks.DataAccess.Repository
         {
             dbSet.RemoveRange(entity);
         }
+
+        
     }
 }

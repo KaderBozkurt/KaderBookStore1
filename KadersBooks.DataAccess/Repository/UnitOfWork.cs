@@ -33,19 +33,7 @@ namespace KadersBooks.DataAccess.Repository
             _db.SaveChanges();
 
         }
+        public ICoverTypeRepository CoverType { get; private set; }
     }
-         public ICoverTypeRepository CoverType { get; private set; }
-               public ISP_Call SP_Call { get; private set; }
-
-                  public void Dispose()
-                         {
-                    _db.Dispose();
-                     }
-
-                     public void Save()   //al change will be saved when the save method is called at the 'parent' level
-                        {
-                         _db.SaveChanges();
-
-                     }
-            }
+}
 

@@ -38,3 +38,13 @@ C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\o
 C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.dll
 C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.pdb
 C:\Users\W0799338\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.csproj.AssemblyReference.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\bin\Debug\netcoreapp3.1\KadersBooks.Models.deps.json
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\bin\Debug\netcoreapp3.1\KadersBooks.Models.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\bin\Debug\netcoreapp3.1\KadersBooks.Models.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.AssemblyInfoInputs.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.AssemblyInfo.cs
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.csproj.CoreCompileInputs.cache
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.dll
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.pdb
+C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.Models\obj\Debug\netcoreapp3.1\KadersBooks.Models.csproj.AssemblyReference.cache
