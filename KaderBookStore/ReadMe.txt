@@ -387,6 +387,26 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
         add Delete API call
 
 
+1600-Start part3.2
+      add a new class Product under models project
+      add reference to new products piece to the database in the ApplicationDbContext.cs file
+1626- add migration 
+
+                "20221123212421_AddProductToDb"
+
+
+1639- update ISBN,Title and Author for required and update migration 
+
+        "20221123213701_addValidationProduct"
+
+1658--break for cook
+
+1810- create repository for product "ProducrRepository" and follow the slayt and add code from slayt.
+      create IRepository for product "IproductRepository"
+      add " public IProductRepository Product { get; set; }" in the UnitOfWork.cs
+      add "IProductRepository Product { get; } "  in the IUnitOfWork.cs
+1841- Finish section 1 and save and push GitHup
+
 
     
 

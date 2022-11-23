@@ -7,7 +7,7 @@ namespace KadersBooks.DataAccess.Repository.IRepository
 {
    public interface ICoverTypeRepository : IRepository<CoverType>
     {
-         void Update(CoverType coverType);
+      public void Update(CoverType coverType);
     }
 }
 
