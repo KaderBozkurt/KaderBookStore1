@@ -340,21 +340,23 @@ The obj folders are hidden in Visual Studio. You can see them with a file explor
                     'IRepository<T>.Update(CoverType)'	KadersBooks.DataAccess
                     C:\Users\Yahya Bozkurt\Source\Repos\KaderBozkurt\KaderBookStore1\KadersBooks.DataAccess\Repository\Repository.cs"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----------------Break lets cook :)
+0000-add same implement about update but still have a error.
 
 this---- public ICoverTypeRepository CoverType { get; private set; } in the UnitOfWork.cs
+
+*******************2022/11/21*********************************************************
+1200-Start project for fix
+1230- ask professor and i found solution
+        Solution: 1-fix my new table name "CoverTypies" to "CoverType"
+                  2-fix my IRepository file and delete update function because i already have.
+                  3-change my save function in IUnitOfWork to public
+
+1330-I try create migration but doesnt work and i decided to not commit all changes and i will try next time but i have php project.....
+
+****************************************2022/11/23*************************************
+
+1112-Review all part and i changed my table name and lets try create migration again.
     
 
 
