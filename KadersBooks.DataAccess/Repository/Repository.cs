@@ -89,6 +89,6 @@ namespace KadersBooks.DataAccess.Repository
             dbSet.RemoveRange(entity);
         }
 
-        
+       
     }
 }

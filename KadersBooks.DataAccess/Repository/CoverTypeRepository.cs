@@ -20,7 +20,7 @@ namespace KadersBooks.DataAccess.Repository
             //use  .NET LINQ to retrieve the first or default category object
             //then pass the id as a generic entity which matches the category ID
 
-            var objFromDb = _db.CoverTypies.FirstOrDefault(s => s.Id == coverType.Id);
+            var objFromDb = _db.CoverTypye.FirstOrDefault(s => s.Id == coverType.Id);
             if (objFromDb != null) //save changes if not null
             {
                 objFromDb.Name = coverType.Name;

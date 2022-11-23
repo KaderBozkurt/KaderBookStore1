@@ -27,6 +27,6 @@ namespace KadersBooks.DataAccess.Repository.IRepository
         void Remove(int id); //to remove an object pr category
         void Remove(T entity); //another way to remove an object
         void RemoveRange(IEnumerable<T> entity); //removes a complete range og entities
-        void Update(CoverType coverType);
+       
     }
 }

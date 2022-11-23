@@ -11,7 +11,7 @@ namespace KadersBooks.DataAccess.Repository.IRepository
         ISP_Call SP_Call { get; }
        
 
-        void Save();
+       public void Save();
         
     }
 }
