@@ -372,7 +372,9 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
 1212- i found my problem. Problem is my second migration. Its create with categories table together and I delete categories table in my AddCoverTypeDb.cd migration
       Update database is  WORKING
 1214-I have already 2 table
-1215-lets start next part
+1215-lets start next part but first i have check my kids 
+1234- Add cover type to NavBar
+
 
     
 

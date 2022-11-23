@@ -1,14 +1,15 @@
-﻿@model KadersBooks.Models.Category;
+﻿@model KadersBooks.Models.CoverType;
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create Category";
+    var title = "Create CoverType";
 }
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-       @if(Model.Id != null){
+        @if (Model.Id != null)
+        {
             //edit
-            title = "Edit Category";
+            title = "Edit Cover Type List";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
@@ -26,12 +27,12 @@
                     @if (Model.Id != 0)
                     {
                         <partial name="_EditAndBackToListButton" model="Model.Id" />
-            }
-            else
-            {
-                        <partial name="_CreateAndBackToListButton"/>
+                    }
+                    else
+                    {
+                        <partial name="_CreateAndBackToListButton" />
 
-            }
+                    }
                 </div>
             </div>
         </div>

@@ -30,7 +30,9 @@ namespace KaderBookStore.Areas.Admin.Controllers
                 return View(category);
             }
             //this for the edit
+           
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+
             if(category == null)
             {
                 return NotFound();
