@@ -357,6 +357,23 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
 ****************************************2022/11/23*************************************
 
 1112-Review all part and i changed my table name and lets try create migration again.
+ 
+1113-I create migration "AddCoverTypeDb"
+
+      " 20221123165543_AddCoverTypeDb"
+
+1130-i cant Update-databe why?
+            error: "Already have categories table....."
+
+1140-check all new file
+1150-still cant update database
+1200-check some file but still Error
+1211- i think i have problem in migration and i will check my new migration again.
+1212- i found my problem. Problem is my second migration. Its create with categories table together and I delete categories table in my AddCoverTypeDb.cd migration
+      Update database is  WORKING
+1214-I have already 2 table
+1215-lets start next part
+
     
 
 
