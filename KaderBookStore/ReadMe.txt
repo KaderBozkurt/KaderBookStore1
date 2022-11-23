@@ -374,6 +374,18 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
 1214-I have already 2 table
 1215-lets start next part but first i have check my kids 
 1234- Add cover type to NavBar
+       Add controller to CoverTypeController and modify code (same cotegory controller) but give error
+ 1330-i made spelling mistake 'Covertpye' to CoverType in CoverTypeController 
+        add Controller ->Admin/Controllers/CoverTypeController
+       
+        add folder Views->Admin/Views/CoverType
+        create Index.cshtml in the CoverType
+1540-  create Upsert.cshtml in the CoverType
+         
+1545- create CoverType.js in the js folder
+1555-  create Upsert for cover type creating and updating Cover Type
+        add Delete API call
+
 
 
     
