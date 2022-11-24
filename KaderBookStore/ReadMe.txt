@@ -406,6 +406,24 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
       add " public IProductRepository Product { get; set; }" in the UnitOfWork.cs
       add "IProductRepository Product { get; } "  in the IUnitOfWork.cs
 1841- Finish section 1 and save and push GitHup
+1850-add ProductController in the Admin/Controllers and write code for CRUD operation
+1900-add IWebHostEnvironment and call using  Microsoft.AspNetCore.Hosting but i have some error for package 
+     add using statment:using KadersBooks.DataAccess.Repository.IRepository;
+                        using Microsoft.AspNetCore.Hosting;
+                        using Microsoft.AspNetCore.Mvc;
+                        using KadersBooks.Models;
+                        using KadersBooks.Models.ViewModels;
+                        using Microsoft.AspNetCore.Mvc.Rendering; 
+1910-Fixed all error after using steatements 
+1915- ProductRepository in the Repository folder and copr paste code from CategoryReposity and change information about category to Product.
+      add ProductVM in the Models project under the ViewModels
+       Modify The API Call to include the category and covertype properies
+       add index view and add new product and add Title/ISBN/Price/Author/Ctegory
+       create product.js file in js folder and copy-paste code from category.js 
+       add reference product.js in ProductController
+       Modify _Layout.cshtml file
+       
+2005- Run is working...   finish section 2 and add Upsert.cs in the Views/Product 
 
 
     
