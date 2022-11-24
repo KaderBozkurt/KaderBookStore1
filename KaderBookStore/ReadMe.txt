@@ -424,7 +424,10 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
        Modify _Layout.cshtml file
        
 2005- Run is working...   finish section 2 and add Upsert.cs in the Views/Product 
+        add a rich textbox to textarea
 
+
+2223-i tried and i have to sleep...
 
     
 
