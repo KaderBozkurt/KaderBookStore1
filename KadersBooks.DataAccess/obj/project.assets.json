@@ -8478,20 +8478,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\": {}
+    "C:\\Users\\W0799338\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
       "projectName": "KadersBooks.DataAccess",
-      "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\W0799338\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Yahya Bozkurt\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\W0799338\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8504,11 +8511,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj": {
-              "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj"
+            "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj": {
+              "projectPath": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj"
             },
-            "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
-              "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj"
+            "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
+              "projectPath": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj"
             }
           }
         }
@@ -8559,7 +8566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

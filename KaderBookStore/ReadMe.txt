@@ -429,6 +429,11 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
 
 2223-i tried and i have to sleep...
 
+**************************2022/11/25************************************
+1040- I came to school early for my application check
+    Still working in lap computer 
+
+
     
 
 
