@@ -1,15 +1,15 @@
 ﻿@model KadersBooks.Models.CoverType;
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    var title = "Create CoverType";
+    var title = "Create Cover Type";
 }
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if (Model.Id != null)
+        @if (Model.Id != 0)
         {
             //edit
-            title = "Edit Cover Type List";
+            title = "Edit Cover Type";
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
@@ -38,4 +38,6 @@
         </div>
     </div>
 </form>
-
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
