@@ -440,3 +440,4 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
       change the comment in productController file.
      When I removed the comment, it gave an error where "path" was written, the name of the error:"When I removed the comment, it gave an error where "part" was written, the name of the error:"
      one of the recommended fix selections "using System.IO;" sect and it is fix.
+     I Create folder in wwwroot folder for image. It name and direction is images/products.
