@@ -449,3 +449,4 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
      because i had error about referances for packages.
      I already error for SD file in KadersBooks.Utility.
      When I compared it with the BulkyBook application, I realized that I needed to add some codes.
+     And I check my categorycontroller file same think and i changed save function because i have add new product

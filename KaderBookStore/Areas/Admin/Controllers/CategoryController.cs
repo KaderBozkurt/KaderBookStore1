@@ -24,16 +24,16 @@ namespace KaderBookStore.Areas.Admin.Controllers
         public IActionResult Upsert(int? id)    //action method for upsert
         {
             Category category = new Category();    //using KadersBooks.Models
-            if(id == null)
+            if (id == null)
             {
                 //this is for create
                 return View(category);
             }
             //this for the edit
-           
+
             category = _unitOfWork.Category.Get(id.GetValueOrDefault());
 
-            if(category == null)
+            if (category == null)
             {
                 return NotFound();
             }
@@ -45,20 +45,18 @@ namespace KaderBookStore.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Category category)
         {
-            if(ModelState.IsValid)     //check all validations in the model(e.g Name Required) to increase security
+            if (ModelState.IsValid)
             {
-                if(category.Id == 0)
+                if (category.Id == 0)
                 {
                     _unitOfWork.Category.Add(category);
-                    _unitOfWork.Save();
                 }
                 else
                 {
                     _unitOfWork.Category.Update(category);
-
                 }
                 _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));       //to see all categories
+                return RedirectToAction(nameof(Index));
             }
             return View(category);
         }
@@ -67,26 +65,28 @@ namespace KaderBookStore.Areas.Admin.Controllers
 
         //API calls here
         #region API CALLS
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            //return NotFound();
-            var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { data = allObj });
-        }
 
-        [HttpDelete]
-        public IActionResult Delete(int id)
-        {
-            var objFromDb = _unitOfWork.Category.Get(id);
-            if (objFromDb == null)
+        [HttpGet]
+            public IActionResult GetAll()
             {
-                return Json(new { success = true, message = "Error while deleting " });
+                var allObj = _unitOfWork.Category.GetAll();
+                return Json(new { data = allObj });
             }
-            _unitOfWork.Category.Remove(objFromDb);
-            _unitOfWork.Save();
-            return Json(new { success = true, message = " Delete successful" });
+
+            [HttpDelete]
+            public IActionResult Delete(int id)
+            {
+                var objFromDb = _unitOfWork.Category.Get(id);
+                if (objFromDb == null)
+                {
+                    return Json(new { success = false, message = "Error while deleting" });
+                }
+                _unitOfWork.Category.Remove(objFromDb);
+                _unitOfWork.Save();
+                return Json(new { success = true, message = "Delete Successful" });
+            }
+
+            #endregion
+
         }
-        #endregion
     }
-}
