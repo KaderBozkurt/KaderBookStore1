@@ -450,3 +450,4 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
      I already error for SD file in KadersBooks.Utility.
      When I compared it with the BulkyBook application, I realized that I needed to add some codes.
      And I check my categorycontroller file same think and i changed save function because i have add new product
+2041- Add script for validation in category/Upsert.html
