@@ -452,3 +452,8 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
      And I check my categorycontroller file same think and i changed save function because i have add new product
 2041- I checked View folder for all part.And i add script for validation in category/Upsert.html and covertype/Upsert
       I checked Product folder in the view folder for Index.html and Upsert.html and i did not change anything because all the same.
+2054- I compare folder structor and i found same differences. So i deleted errorreview.cs in the areas/customer/controller.
+       Add same code in HomeController.cs file for create product and I have error about reference and packages.
+       I tried potientional fix selection. 1- add "using KadersBooks.DataAccess.Repository.IRepository;"
+                                           2- Add "using KadersBooks.Models;"
+                                           3- Add "using KaderBookStore.Models.ViewModels;"
