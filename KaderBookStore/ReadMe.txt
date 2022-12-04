@@ -457,3 +457,5 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
        I tried potientional fix selection. 1- add "using KadersBooks.DataAccess.Repository.IRepository;"
                                            2- Add "using KadersBooks.Models;"
                                            3- Add "using KaderBookStore.Models.ViewModels;"
+2107- I checked Areas/Customer/Views/Home/Index.html page and i add code about add new product for record.
+        
