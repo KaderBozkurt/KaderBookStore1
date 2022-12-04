@@ -5,8 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using KadersBooks.DataAccess.Repository.IRepository;
 using KadersBooks.Models;
-
-
+using Dapper;
+using KadersBooks.Utility;
 
 namespace KaderBookStore.Areas.Admin.Controllers
 {
@@ -31,6 +31,12 @@ namespace KaderBookStore.Areas.Admin.Controllers
             {
                 return View(coverType);
             }
+
+            // this is for edit
+            var parameter = new DynamicParameters();
+            parameter.Add("@Id", id);
+            coverType = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
+
             coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
             if(coverType == null)
             {

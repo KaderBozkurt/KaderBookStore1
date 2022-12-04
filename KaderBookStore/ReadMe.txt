@@ -441,3 +441,11 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
      When I removed the comment, it gave an error where "path" was written, the name of the error:"When I removed the comment, it gave an error where "part" was written, the name of the error:"
      one of the recommended fix selections "using System.IO;" sect and it is fix.
      I Create folder in wwwroot folder for image. It name and direction is images/products.
+     Run the app but when i create product it give it error. 
+     Error: NullReferenceException:Object reference not set to an instance of an object.
+     I think i have error in productcontroller file. I will check.
+     I did not find any mistake when i macth BulkyBook but i realize i miss Covertype record for product.
+2021-I create record for edit but i have new error and i checked poteintional fix and i choose "using Dapper;" 
+     because i had error about referances for packages.
+     I already error for SD file in KadersBooks.Utility.
+     When I compared it with the BulkyBook application, I realized that I needed to add some codes.
