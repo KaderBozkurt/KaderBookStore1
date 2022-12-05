@@ -509,3 +509,13 @@ Lets start over again for compare code file to file
       Lets compare another files.its all about product its same, Why i dont create product list and home page?
   2319-Check all file but i cannot creative new product and home page 
          CRYINGGGG
+
+1000-I came to school and i tried school computer 
+     but my application doesnt work and cannot update database.
+     Delete all older folder in repos and i clone again but stil not updated 
+     error is still have categories table. i have class and tried after.
+1130- i tried again for update database and cannot updated
+        I deleted all table and i try again and working
+        I create home page table and i cannot add data because my product table not working
+        But i have new error for my pproduct table i cannot add data...
+1200- Start class 
