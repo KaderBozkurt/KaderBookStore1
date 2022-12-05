@@ -10,7 +10,7 @@ namespace KadersBooks.DataAccess.Migrations
                 name: "Products",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
@@ -31,9 +31,9 @@ namespace KadersBooks.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Products_CoverTypes_CoverTypeId",
+                        name: "FK_Products_CoverType_CoverTypeId",
                         column: x => x.CoverTypeId,
-                        principalTable: "CoverTypes",
+                        principalTable: "CoverType",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });

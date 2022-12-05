@@ -501,3 +501,11 @@ Test.. and its open up creative product section but when i enter the data, nothi
 1948-
 
 Lets start over again for compare code file to file
+
+            - change sd.cs file call the Sd---Run but not working
+            -i found mismatch code in CoverTypeController and SD i changed to with githup
+ 2107-When i changed coverTypeController i have create migration So should i do????????
+      I will ask tomorrow.
+      Lets compare another files.its all about product its same, Why i dont create product list and home page?
+  2319-Check all file but i cannot creative new product and home page 
+         CRYINGGGG
