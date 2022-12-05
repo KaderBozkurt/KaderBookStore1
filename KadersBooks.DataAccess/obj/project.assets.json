@@ -8483,11 +8483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
       "projectName": "KadersBooks.DataAccess",
-      "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+      "projectPath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yahya Bozkurt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8504,11 +8504,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj": {
-              "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj"
+            "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj": {
+              "projectPath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj"
             },
-            "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
-              "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj"
+            "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj": {
+              "projectPath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj"
             }
           }
         }

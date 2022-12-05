@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UwwHLyfnfC0GGXmY65Z0F5KyoaK6rEJ1ISRc6PFJhbpYZrT0J4/lCTdpqR+GLMYg4lsGXvz2s4g5ioD42x5l2w==",
+  "dgSpecHash": "wESM0DJegPKz5M9gsCEa81bLZAnnIH/pkWrEjBSS/RG9LONHgh5BSgEYAIn9vIX9v10ps+L8yw02q8dPBaWudQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj",
+  "projectFilePath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Models\\KadersBooks.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

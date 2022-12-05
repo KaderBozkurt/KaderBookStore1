@@ -35,9 +35,10 @@ namespace KaderBookStore.Areas.Admin.Controllers
             // this is for edit
             var parameter = new DynamicParameters();
             parameter.Add("@Id", id);
+
             coverType = _unitOfWork.SP_Call.OneRecord<CoverType>(SD.Proc_CoverType_Get, parameter);
 
-            coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());
+           
             if(coverType == null)
             {
                 return NotFound();

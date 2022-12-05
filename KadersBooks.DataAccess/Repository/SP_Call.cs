@@ -77,7 +77,6 @@ namespace KadersBooks.DataAccess.Repository
             using (SqlConnection sqlCon = new SqlConnection(ConnectionString))
             {
                 sqlCon.Open();
-                var value = sqlCon.Query<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure);
                 return (T)Convert.ChangeType(sqlCon.ExecuteScalar<T>(procedureName, param, commandType: System.Data.CommandType.StoredProcedure), typeof(T));
             }
         }

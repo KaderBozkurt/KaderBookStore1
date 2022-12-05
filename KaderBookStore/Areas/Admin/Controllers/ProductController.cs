@@ -16,18 +16,19 @@ namespace KaderBookStore.Areas.Admin.Controllers
     public class ProductController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IWebHostEnvironment _hostEnvironment;           //to update images on the server inside wwwroot
+        private readonly IWebHostEnvironment _hostEnvironment;
 
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment hostEnvironment)
         {
             _unitOfWork = unitOfWork;
             _hostEnvironment = hostEnvironment;
-
         }
+
         public IActionResult Index()
         {
             return View();
         }
+
         public IActionResult Upsert(int? id)
         {
             ProductVM productVM = new ProductVM()
@@ -38,26 +39,26 @@ namespace KaderBookStore.Areas.Admin.Controllers
                     Text = i.Name,
                     Value = i.Id.ToString()
                 }),
-            CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
-            {
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
                     Text = i.Name,
-                    Value =i.Id.ToString() 
-            }),
-
-            };  //using KadersBooks.Models;
-            if( id == null)
+                    Value = i.Id.ToString()
+                })
+            };
+            if (id == null)
             {
-                //this is for create
+                // this is for create
                 return View(productVM);
             }
-            //this for edit
+            // this is for edit
+
             productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
-            if(productVM.Product == null)
+
+            if (productVM.Product == null)
             {
                 return NotFound();
             }
             return View(productVM);
-
         }
 
         [HttpPost]
@@ -107,7 +108,7 @@ namespace KaderBookStore.Areas.Admin.Controllers
                 {
                     _unitOfWork.Product.Update(productVM.Product);
                 }
-                _unitOfWork.Save();
+                //_unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
             else
@@ -129,29 +130,38 @@ namespace KaderBookStore.Areas.Admin.Controllers
             }
             return View(productVM);
         }
-        //API calls here
-        #region API CALLS
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            //return NotFound();
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
-            return Json(new { data = allObj });
-        }
 
-        [HttpDelete]
-        public IActionResult Delete(int id)
-        {
-            var objFromDb = _unitOfWork.Product.Get(id);
-            if (objFromDb == null)
+        #region API CALLS
+
+        [HttpGet]
+            public IActionResult GetAll()
             {
-                return Json(new { success = true, message = "Error while deleting " });
+                var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category,CoverType");
+                return Json(new { data = allObj });
             }
-            _unitOfWork.Product.Remove(objFromDb);
-            _unitOfWork.Save();
-            return Json(new { success = true, message = " Delete successful" });
+
+            [HttpDelete]
+            public IActionResult Delete(int id)
+            {
+                var objFromDb = _unitOfWork.Product.Get(id);
+                if (objFromDb == null)
+                {
+                    return Json(new { success = false, message = "Error while deleting" });
+                }
+                string webRootPath = _hostEnvironment.WebRootPath;
+                var imagePath = Path.Combine(webRootPath, objFromDb.ImageUrl.TrimStart('\\'));
+                if (System.IO.File.Exists(imagePath))
+                {
+                    System.IO.File.Delete(imagePath);
+                }
+                _unitOfWork.Product.Remove(objFromDb);
+                _unitOfWork.Save();
+                return Json(new { success = true, message = "Delete Successful" });
+            }
+
+            #endregion
+
         }
-        #endregion
     }
-}
+
     

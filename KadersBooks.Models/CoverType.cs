@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
 
 namespace KadersBooks.Models
 {
@@ -9,9 +10,9 @@ namespace KadersBooks.Models
     {
         [Key]
         public int Id { get; set; }
-
-        [Display(Name = "CoverType Name")]
         [Required]
+        [Display(Name = "CoverType Name")]
+     
         [MaxLength(50)]
         public string Name { get; set; }
     }

@@ -34,6 +34,7 @@ namespace KadersBooks.DataAccess.Repository
         public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null)
             {
                 query = query.Where(filter);
@@ -51,12 +52,14 @@ namespace KadersBooks.DataAccess.Repository
             {
                 return orderBy(query).ToList();
             }
-            return query.ToList();      // returns the IEnumerable based on the conditions of the query
+            return query.ToList();
         }
+
 
         public T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null)
         {
             IQueryable<T> query = dbSet;
+
             if (filter != null)
             {
                 query = query.Where(filter);
@@ -69,6 +72,7 @@ namespace KadersBooks.DataAccess.Repository
                     query = query.Include(includeProp);
                 }
             }
+
 
             return query.FirstOrDefault();      // returns the IEnumerable based on the conditions of the query
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QAvash8P5T0acG+SZZePB6q0SAyZ17S5NCJNmi+ftX1T9mbRgmq7eOt744tM72JmS42MBotzHBwHvjjYyCxwXQ==",
+  "dgSpecHash": "C6kj/gjNsCg7mIDXStmFQjGsrNeGXAaDtYlQNAiBclxoTMZZ72qIarTTGXR8jxwSgO2/FrUgh+PuWMH8ZZz12w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+  "projectFilePath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\microsoft.entityframeworkcore\\1.1.6\\microsoft.entityframeworkcore.1.1.6.nupkg.sha512",

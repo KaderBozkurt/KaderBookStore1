@@ -435,7 +435,7 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
 
 
     
-**************2022/12/03****************************************
+****************************2022/12/03****************************************
 2000- Start part 4 
       change the comment in productController file.
      When I removed the comment, it gave an error where "path" was written, the name of the error:"When I removed the comment, it gave an error where "part" was written, the name of the error:"
@@ -458,4 +458,46 @@ this---- public ICoverTypeRepository CoverType { get; private set; } in the Unit
                                            2- Add "using KadersBooks.Models;"
                                            3- Add "using KaderBookStore.Models.ViewModels;"
 2107- I checked Areas/Customer/Views/Home/Index.html page and i add code about add new product for record.
-        
+2122- Checked all file under the Views folder and it all file matched.
+        Check wwwroot folder
+              Properties
+              Startup.cs all the same
+
+2147- Finished check all file in the KaderBookStore project and lets Test...
+2154- I have error for product "NullReferenceException: Object reference not set to an instance of an object." i must be check my hoecontroller line 31
+        I cannot fix because i have finished all project compare so i think when i finish check its fix.
+        its about data and migration.i continue check folder
+        I checked -KadersBooks.DataAccess -Data folder - its same
+                                          -Repository folder- add "Product = new ProductRepository(_db);" code in UnitOfWork
+                                                             -Another file its same and i just checked correction.
+                                          -IRepository folder - changed save function to void save();
+      Lets Test- Run and i have error about is column name  ImageUrl i checked all views and data file but i cannot fix..
+2200- After searching for about an hour, I noticed that when creating the table, ImgUrl was written instead of ImageUrl. 
+        How can I change it? I don't want to deal with migration...I try change column name but doesnt work.
+        .............
+2311- I tried change column name in SQL Server Object Explorer manualy but not good way and not working
+      Then i decided use update function in the server. I change column name and after that i click the update.
+      After this progresses its change column name 
+      I Test again  and I have different error..
+      Error is between coverType id and Cotegory Id for foreign Key.there is a conflict between the two
+      So What should I do now?  ..........
+      SLEEP
+
+******************************2022/12/04**************************************************************************
+0800- Checked all page and folder but i cant found fix way
+      My categoryId and CoverTypeId foreignId confict so i wonder if i fix covertype table record for table name and foreign Id, i have create migration or update manually?
+      I thinking about that but i stiil try something -- change ProductControl.cs file as in given githup account and contuinue foreign error but i fixed ajax pop-up error. 
+                                                       -change index.html file for the home page but it is not show up.
+                                                       -compare SD file under the Utility but i think this code for next part 
+-I send email to professor
+
+0900- I cant found solution.......I tried all day but i couldnt find a solution 
+
+
+1911- i decided create migration for fix but first i check again all file 
+i found same mismacth code covertypecontroller file and i delete " coverType = _unitOfWork.CoverType.Get(id.GetValueOrDefault());" line
+Test.. and its open up creative product section but when i enter the data, nothing happens, it doesnt appear in the table.
+
+1948-
+
+Lets start over again for compare code file to file

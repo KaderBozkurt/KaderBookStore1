@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LDIQYfwtJcEPTiyote7vrb31E16XfCsiytRTBeKimAdoyjg6/2KJwd4zvNFSLT7JR7jE5TP1C5v4DDjdci1PHQ==",
+  "dgSpecHash": "0KX1mMfkMRc64ls5BiYJ8uElOi8qn1s6cUuRN642mCAn0FgD89fQ1BG6YkZPD7hret0/eoG6VtKQfgAB8tvZ7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Yahya Bozkurt\\source\\repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.DataAccess\\KadersBooks.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

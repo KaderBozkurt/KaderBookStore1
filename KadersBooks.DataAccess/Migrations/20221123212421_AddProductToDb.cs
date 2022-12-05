@@ -17,7 +17,7 @@ namespace KadersBooks.DataAccess.Migrations
                     ISBN = table.Column<string>(nullable: true),
                     Author = table.Column<string>(nullable: true),
                     ListPrice = table.Column<double>(nullable: false),
-                    ImgUrl = table.Column<string>(nullable: true),
+                    ImageUrl = table.Column<string>(nullable: true),
                     CategoryId = table.Column<int>(nullable: false),
                     CoverTypeId = table.Column<int>(nullable: false)
                 },
@@ -31,9 +31,9 @@ namespace KadersBooks.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Products_CoverType_CategoryId",
-                        column: x => x.CategoryId,
-                        principalTable: "CoverType",
+                        name: "FK_Products_CoverTypes_CoverTypeId",
+                        column: x => x.CoverTypeId,
+                        principalTable: "CoverTypes",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -42,8 +42,12 @@ namespace KadersBooks.DataAccess.Migrations
                 name: "IX_Products_CategoryId",
                 table: "Products",
                 column: "CategoryId");
-        }
 
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_CoverTypeId",
+                table: "Products",
+                column: "CoverTypeId");
+        }
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
