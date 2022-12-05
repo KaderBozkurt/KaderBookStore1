@@ -509,6 +509,7 @@ Lets start over again for compare code file to file
       Lets compare another files.its all about product its same, Why i dont create product list and home page?
   2319-Check all file but i cannot creative new product and home page 
          CRYINGGGG
+********************************2022/12/05**********************************************************************
 
 1000-I came to school and i tried school computer 
      but my application doesnt work and cannot update database.
