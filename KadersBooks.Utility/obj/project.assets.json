@@ -5419,19 +5419,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\": {}
+    "C:\\Users\\W0799338\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
       "projectName": "KadersBooks.Utility",
-      "projectPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
-      "packagesPath": "C:\\Users\\Yahya Bozkurt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yahya Bozkurt\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\obj\\",
+      "projectPath": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\KadersBooks.Utility.csproj",
+      "packagesPath": "C:\\Users\\W0799338\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\W0799338\\Source\\Repos\\KaderBozkurt\\KaderBookStore1\\KadersBooks.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yahya Bozkurt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\W0799338\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5477,7 +5477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
   }
