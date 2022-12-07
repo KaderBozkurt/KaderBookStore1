@@ -108,7 +108,7 @@ namespace KaderBookStore.Areas.Admin.Controllers
                 {
                     _unitOfWork.Product.Update(productVM.Product);
                 }
-                //_unitOfWork.Save();
+                _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
             else

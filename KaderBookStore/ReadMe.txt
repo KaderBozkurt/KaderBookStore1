@@ -520,3 +520,30 @@ Lets start over again for compare code file to file
         I create home page table and i cannot add data because my product table not working
         But i have new error for my pproduct table i cannot add data...
 1200- Start class 
+       My table doesnt add data and i have to fix untill next friday
+***************************************2022/12/06****************************************************************
+
+2000- I want to check all part but i dont have aerror and what shoul i do?
+2100- I followed the professor's advice and deleted the tables, but now I can't restore them and I can't see the tables on my own computer.
+        I closed visual studio and moved the folders in the repo.
+        I wanted to open it by cloning again, but my project does not update the database because I deleted the tables.
+        Now nothing is working on my home computer.
+        I think I lost my project but there is GitHub but I don't know if it is working properly.
+2230-I wonder if we can finish the project if I start over, but I'm not sure.
+        I have searched on the internet but cant found a solution.
+        Everyone recommends me to delete the tables and update, but now when I use update-database it responds successfully but does not restore.
+        Tables are not see in SQL Explorer.
+        ?????????????????????????????????
+2315-I'll go to school tomorrow and try again.
+        My kids got sick too, their timing is great.... I cant slepp
+
+*********************************************2022/12/06*****************************************************************
+1600-I tried it on the school computer, it works, but I need to do a few steps.
+                1.clone
+                2.build project
+                3. update-database->not success
+                4.should be delete categories and covertype table in SQL Server Explorer then try again "UPDATE-DATABASE" Its updated and its opening.
+
+1630-GitHub loads old tables on boot I guess because I deleted the tables and created them again.
+     It loads the tables after deleting and trying again. This is new information for me.
+     Its working with table. I see my data in the table right now
