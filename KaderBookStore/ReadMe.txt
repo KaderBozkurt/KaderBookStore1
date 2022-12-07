@@ -547,3 +547,5 @@ Lets start over again for compare code file to file
 1630-GitHub loads old tables on boot I guess because I deleted the tables and created them again.
      It loads the tables after deleting and trying again. This is new information for me.
      Its working with table. I see my data in the table right now
+     Add index page with images and info.
+     Details is doesnt work and i will be check
