@@ -8,5 +8,4 @@ This project is build with ASP.NET MVC CORE 3.1 using HTTPS,individual account a
 
 The scenerio is build a 'robust' ASP_NET MVC Core application for a fictional company called 'KaderBookStore1'
 
-Part1- is to develop the application and apply a Bootsrap theme
-Part2- Access the Database, Migration and Repository
+
