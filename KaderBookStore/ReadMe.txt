@@ -579,3 +579,15 @@ Lets start over again for compare code file to file
          Run and verything working/
 
          Thank you for everything... Finally Finished......
+
+
+         Require:
+         I hope you take this message into consideration. As you know, I got more than one mistake during the construction phase of the project and I tried to fix it with my own methods. Running this project on different computers is a situation that arose during this bug fix.
+1. First of all, since I loaded my project using the extensions, it opens with multiple debug (.vs folders) files when uploading it to Visual Studio. This is a condition for my project to install packages on every upload.
+2. While creating the last part, I corrected the typos in my tables by following your advice, but since GitHup does not completely delete my old tables, it is necessary to do the following on each installation. This is required for GitHup.
+                  1. clone the 1st project
+                  2. build project
+                  3. update-database->failed
+                  4. Delete the categories and covertype table in SQL Server Explorer and try again "UPDATE-DATABASE" It should be updated and opened.
+
+Sorry about that but GitHub is too complex to remove old information.
