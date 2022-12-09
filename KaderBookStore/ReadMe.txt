@@ -86,7 +86,7 @@ the scenerio
 2005-change "=" to ":" --not working--undo
 2005-move all views folder to areas ---not working--undo
 2006-delete views folder in main app---not working--undo
-i decided so tried and i sent email Mr.Steel....
+     i decided so tried and i sent email Mr.Steel....
 
 ****************2022/11/02***************************************
 12 noon- viewsmodesl error is fixed with quick fix option 
@@ -103,7 +103,7 @@ i decided so tried and i sent email Mr.Steel....
         I continue but I cant test, so I changed my mind and I came back all changes.  I use gitup change section for came back.
         Then I try again part by part from the bootsrap part.
         I repeat the above parts and....
-TEST and RUN ....It WORKING.......with theme because i copied viewstart and viewImport file. Funny day..
+1400-TEST and RUN ....It WORKING.......with theme because i copied viewstart and viewImport file. Funny day..
 
 -------------19:00--------
 1900-I continue built my project by following direction.
