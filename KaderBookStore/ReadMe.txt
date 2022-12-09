@@ -1,3 +1,16 @@
+KaderBookStore
+St Clair College WEB 452 Assignment 2(Fall)
+Kader Bozkurt w0799338
+WEB452-22F WEB APPS IN ASP.NET 
+Andrew Steele
+Assignment 2
+This is a project completed in Fall"22 at St. Clair College for WEB 452-Web Development and Internet Applications with Professor Andrews Steele.
+This project is build with ASP.NET MVC CORE 3.1 using HTTPS,individual account authentication
+The scenerio is build a 'robust' ASP_NET MVC Core application for a fictional company called 'KaderBookStore1'
+
+
+
+
 ************2022/10/21******************************
 Built the individual default application-ASP.NET Core (MVC)
 using HTTPS
@@ -12,57 +25,59 @@ create GITHUB repo and then reviewed the default
 This Project is build with ASP.NET MVC CORE 3.1 usig HTTPS, individual account authentication..
 the scenerio
 ****************2022/10/26***********************************************************************
-I search bootswatch.com and select theme.
- I choose "cosmo" theme and dowloaded bootsrapt.css.
-I add to wwwroot>lib>bootsrapt>dist>css location.
-when I add it I rename to old bootsrap.css to bootsrapt1.css because I want to keep it for any came back. Then, I add to layout.cshtml page.
-I changed <style> bootsrapt.min.css link to bootsrapt.css.
-I changed the nav class from nav-light to navbar dark and and bg-white to bg-primary and I changed  'footer' too.  and remove text-dark from line 23.
-I remove references to 'text-dark' in  ' _LoginPartial.cshtml' page.
-Test and Run.....It look good.
-I addtional third party tool script to use
+1200-I search bootswatch.com and select theme.
+    I choose "cosmo" theme and dowloaded bootsrapt.css.
+    I add to wwwroot>lib>bootsrapt>dist>css location.
+    when I add it I rename to old bootsrap.css to bootsrapt1.css because I want to keep it for any came back. Then, I add to layout.cshtml page.
+    I changed <style> bootsrapt.min.css link to bootsrapt.css.
+    I changed the nav class from nav-light to navbar dark and and bg-white to bg-primary and I changed  'footer' too.  and remove text-dark from line 23.
+    I remove references to 'text-dark' in  ' _LoginPartial.cshtml' page.
+    Test and Run.....It look good.
+1300-I addtional third party tool script to use
 
-jquery UI: use same link in website.
-DataTables:  I copy link from website, and paste to _layout.cdhtml page with <link> and <script> .
-SweetAlert: I copy link from website, and paste in _layout.cdhtml page. "<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-Font Awesome: I add the free kit with <script> tag and I change "registere and Login"  with icons.
-Toastr: i copied  Minified link from website and paste layout page.
-change  layout.cshtml page 
-test and run.....Working
+    jquery UI: use same link in website.
+    DataTables:  I copy link from website, and paste to _layout.cdhtml page with <link> and <script> .
+    SweetAlert: I copy link from website, and paste in _layout.cdhtml page. "<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    Font Awesome: I add the free kit with <script> tag and I change "registere and Login"  with icons.
+    Toastr: i copied  Minified link from website and paste layout page.
+    change  layout.cshtml page 
+1400- test and run.....Working
 
 *********************2022/10/30****************************************************************
--check all part untill boostrapt
-I add a dropdown menu to the Navbar in Views/Shared/_Layout.cshtml.
--Changed powerpoint part for dropdown menu. I add but doesnt work. I tried again, and I delete and type code again. 
-Test and run . Its working..
-I think, i made some spelling mistake. 
-- When i adding dropdown menu register and login menu were change location. I change "register and login" menus location. 
-So i change location  "<partial name="_LoginPartial" />" in _Layou.cshtml.
-my cosmo template supports dropdown background color white and selection color gray.
-I change dropdown to general manegement
+2000-check all part untill boostrapt
+    I add a dropdown menu to the Navbar in Views/Shared/_Layout.cshtml.
+    Changed powerpoint part for dropdown menu. I add but doesnt work. I tried again, and I delete and type code again. 
+2030-Test and run . Its working..
+    I think, i made some spelling mistake. 
+    - When i adding dropdown menu register and login menu were change location. I change "register and login" menus location. 
+ 2100-So i change location  "<partial name="_LoginPartial" />" in _Layout.cshtml.
 
+        my "cosmo" template supports dropdown background color white and selection color gray.
+
+        I change dropdown to general manegement
+2230-Sleep time for my home
 *******************2022/11/01******************************************************************
-check all part untill Add Project & Modify
-I following powepoint untill modify
--add 3 new NET Core class library to apptication
-1.KadersBooks.DataAccess
-2.KadersBooks.Models
-3.KadersBooks.Utility
-I cutting 'Data' folder and paste to.KadersBokks,DataAccess project.
-Install Microsoft.EntityFrameworkCore.Relational and Core.SqlServer page.
-when I installed it gave me error about Package version.
-I updated version to 5.10.11.(same powerpoint)
-I delete Migration but i keep this file in my computer. It maybe give it error. :)
-I modify the namespace to reflect the project.
-I deleted all Class1.cs file in the additional class library.
-I moved models folder in to KadersBooks.Models, and deleted orginal folder.
-Modify Views>Share>Error.cshtml
-I added References project.(.DataAccess and Models)
-Rename Models folder to ViewModels.
-i change the ErrorViewModels,cs namespace .Models.ViewModels.
-I built project but it has 2 error.
-I modifying Startup.cs service 'AddContext' with the using statement.
-Built and Run  but....still have error
+1200-check all part untill Add Project & Modify
+        I following powepoint untill modify
+        add 3 new NET Core class library to apptication
+                1.KadersBooks.DataAccess
+                2.KadersBooks.Models
+                3.KadersBooks.Utility
+    I cutting 'Data' folder and paste to.KadersBokks,DataAccess project.
+    Install Microsoft.EntityFrameworkCore.Relational and Core.SqlServer page.
+1240-when I installed it gave me error about Package version.
+       I updated version to 5.10.11.(same powerpoint)
+        I delete Migration but i keep this file in my computer. It maybe give it error. :)
+        I modify the namespace to reflect the project.
+        I deleted all Class1.cs file in the additional class library.
+        I moved models folder in to KadersBooks.Models, and deleted orginal folder.
+        Modify Views>Share>Error.cshtml
+        I added References project.(.DataAccess and Models)
+        Rename Models folder to ViewModels.
+        i change the ErrorViewModels,cs namespace .Models.ViewModels.
+1330-I built project but it has 2 error for startup.cs folder.
+       I modifying Startup.cs service 'AddContext' with the using statement.
+1430-Built and Run  but....still have error
 ------------20:00---------------------------
 2000-change view file location and run but i have still 2 error ..
 2001-I tried something:
@@ -114,7 +129,7 @@ TEST and RUN ....It WORKING.......with theme because i copied viewstart and view
 1230- we create group with my classmate and we working on
 1233- first we back up all project 
 1236- create new repository and try upload my old file with visual studio but visual studio allow new project not use old project.
-1300-create new repo but githup exsist my old repo and i have change name "KaderBookStore1" but we cant upload
+1300-create new repo but githup exsist my old repo and i have change name "KaderBookStore1" but we cant upload and we use EXTENSIONS for updated old files 
 1325- professor give me point
 1330- my classmate advise it for check githup push way. that mean .git folder (actually it hidden). 
 1340- first, all file select show in visual studio
@@ -143,7 +158,8 @@ so i try update but its not working.
 1222-Add migration  and it gave the error in the slides and I changed the default project part
     and working lets go next step.
        
-       My migration name:'BookStoreMig'-"20221110180051_AddCategoryDb"
+       My migrations name:'20221110170658_BookStoreMig'
+                        -"20221110180051_AddCategoryDb"
 
 1223-check migration file in KadersBokks.DataAccess
 1238-update-database and succeeded and Done
@@ -549,3 +565,17 @@ Lets start over again for compare code file to file
      Its working with table. I see my data in the table right now
      Add index page with images and info.
      Details is doesnt work and i will be check
+
+
+     ******************************************2022/12/09*******************************************************************
+     1000- i came to school early because y app not working my computer.
+           Why i notsure but i know my computer is cant create new table.
+           Working in School computer 
+           I already have error for show up price.
+           I cant see price when i add the value
+           Checked all product folder but i didnt see any mistake
+   1121- I use inspect for my create pruduct table in Google Crohme so i checked my prive colum name and i found diff. name 
+         Copy and paste column name in product.js. Because my mistake in javascript file code.
+         Run and verything working/
+
+         Thank you for everything... Finally Finished......
